@@ -1,0 +1,14 @@
+/*
+ * HistoryList.module.css
+ * Save this file in the same directory as HistoryList.tsx
+ */
+
+.horizontalScroll {
+  /* --- Hides scrollbar for Firefox --- */
+  scrollbar-width: none;
+}
+
+.horizontalScroll::-webkit-scrollbar {
+  /* --- Hides scrollbar for Chrome, Safari, and Edge --- */
+  display: none;
+}
